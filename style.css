@@ -501,38 +501,51 @@ form button {
 
     /* Header adjustments */
     header {
-        padding: 8px 12px;
+        padding: 6px 10px;
+        width: 100vw;
+        max-width: 100vw;
+        box-sizing: border-box;
     }
 
     .header-container {
         flex-direction: column;
-        gap: 10px;
+        gap: 8px;
+        align-items: center;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0;
     }
 
     .brand {
         gap: 8px;
+        justify-content: center;
+        width: 100%;
     }
 
     .logo {
-        width: 90px;
+        width: 70px;
     }
 
     .brand h1 {
-        font-size: 1rem;
+        font-size: 0.95rem;
     }
 
     nav {
         flex-wrap: nowrap;
-        gap: 8px;
+        gap: 10px;
         justify-content: center;
+        width: 100%;
+        max-width: 100%;
         overflow-x: auto;
-        padding: 0 4px;
+        padding: 0;
+        margin: 0;
     }
 
     nav a {
         font-size: 11px;
-        letter-spacing: 0.5px;
-        padding: 0 4px;
+        letter-spacing: 0.4px;
+        padding: 0 6px;
         white-space: nowrap;
     }
 
@@ -540,47 +553,50 @@ form button {
     .hero {
         flex-direction: column;
         text-align: center;
-        padding: 12px 8px;
-        gap: 12px;
+        padding: 10px 8px;
+        gap: 10px;
     }
 
     .hero-text {
         max-width: 100%;
         text-align: center;
+        padding: 0 6px;
     }
 
     .tagline {
-        font-size: 24px;
-        margin-bottom: 8px;
-        line-height: 1.1;
+        font-size: 22px;
+        margin-bottom: 6px;
+        line-height: 1.15;
     }
 
     .intro {
-        font-size: 15px;
+        font-size: 14px;
         line-height: 1.45;
-        margin-bottom: 10px;
+        margin-bottom: 8px;
     }
 
     .hero-image img {
-        width: 80%;
-        max-width: 220px;
+        width: 65%;
+        max-width: 170px;
+        margin: 0 auto;
+        display: block;
     }
 
     .verse {
         font-size: 12px;
-        margin-top: 10px;
+        margin-top: 8px;
     }
 
     .gold-line {
-        width: 150px;
-        margin: 16px auto 24px auto;
+        width: 140px;
+        margin: 14px auto 20px auto;
     }
 
     /* Buttons */
     button {
-        padding: 9px 18px;
+        padding: 8px 16px;
         font-size: 13px;
-        margin-top: 8px;
+        margin-top: 6px;
     }
 
     /* Lists and cards */
@@ -589,123 +605,126 @@ form button {
     .favorite-card,
     .contact-card,
     .menu-card {
-        width: 95%;
-        max-width: 100%;
+        width: 90%;
+        max-width: 90%;
     }
 
     li {
-        margin: 6px auto;
+        margin: 5px auto;
         padding: 10px;
     }
 
     .best-seller {
-        margin: 12px auto;
-        padding: 12px;
+        margin: 10px auto;
+        padding: 10px;
     }
 
     /* Featured section */
     .featured {
-        padding-top: 10px;
+        padding-top: 8px;
         margin-top: 0;
     }
 
     .featured h2 {
-        font-size: 28px;
-        margin-bottom: 18px;
+        font-size: 26px;
+        margin-bottom: 14px;
     }
 
     .favorites {
         flex-direction: column;
         align-items: center;
-        gap: 10px;
+        gap: 8px;
     }
 
     .favorite-card {
-        padding: 12px;
+        width: 88%;
+        max-width: 88%;
+        padding: 10px;
+        margin: 0 auto;
     }
 
     .favorite-card h3 {
-        font-size: 1.25rem;
-        margin-top: 8px;
-        margin-bottom: 8px;
+        font-size: 1.2rem;
+        margin-top: 6px;
+        margin-bottom: 6px;
     }
 
     .favorite-card p {
-        font-size: 0.88rem;
-        line-height: 1.5;
+        font-size: 0.86rem;
+        line-height: 1.45;
     }
 
     .favorite-card img {
-        height: 160px;
+        height: 140px;
     }
 
     /* Page content */
     .page-content {
         max-width: 100%;
-        margin: 12px auto;
-        padding: 8px;
+        margin: 10px auto;
+        padding: 6px;
     }
 
     .page-content h2 {
-        font-size: 26px;
-        margin-top: 12px;
-        margin-bottom: 12px;
+        font-size: 24px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     /* Menu cards */
     .menu-grid {
-        gap: 10px;
+        gap: 8px;
     }
 
     .menu-card {
-        margin: 8px auto;
-        padding: 16px;
+        margin: 6px auto;
+        padding: 14px;
     }
 
     .menu-card h3 {
-        margin-bottom: 8px;
+        margin-bottom: 6px;
     }
 
     /* Contact form */
     input,
     select,
     textarea {
-        width: 95%;
-        padding: 9px;
+        width: 92%;
+        padding: 8px;
         font-size: 13px;
     }
 
     form button {
-        width: 95%;
-        padding: 10px;
+        width: 92%;
+        padding: 9px;
         font-size: 13px;
     }
 
     /* Story section */
     .story-section {
-        width: 95%;
-        margin: 24px auto 12px auto;
-        padding: 18px 12px;
+        width: 92%;
+        margin: 18px auto 10px auto;
+        padding: 14px 10px;
     }
 
     .story-section h2 {
-        font-size: 26px;
-        margin-bottom: 12px;
+        font-size: 24px;
+        margin-bottom: 10px;
     }
 
     .story-section p {
         font-size: 14px;
-        line-height: 1.55;
+        line-height: 1.5;
     }
 
     /* CTA section */
     .cta-section {
-        padding: 22px 12px;
-        margin-top: 16px;
+        padding: 16px 10px;
+        margin-top: 12px;
     }
 
     .cta-section h2 {
-        font-size: 26px;
+        font-size: 24px;
     }
 
     .cta-section p {
@@ -713,60 +732,60 @@ form button {
     }
 
     .cta-button {
-        padding: 11px 20px;
+        padding: 10px 18px;
         font-size: 13px;
     }
 
     .menu-subtitle {
         font-size: 13px;
-        margin-bottom: 16px;
+        margin-bottom: 12px;
     }
 
     /* Contact card */
     .contact-card {
-        margin: 12px auto;
-        padding: 16px 12px;
+        margin: 10px auto;
+        padding: 14px 10px;
     }
 
     .contact-card h3 {
-        margin-top: 12px;
-        font-size: 15px;
+        margin-top: 10px;
+        font-size: 14px;
     }
 
     /* Gallery */
     .gallery-section {
-        padding: 20px 10px;
-        margin-top: 20px;
+        padding: 16px 10px;
+        margin-top: 16px;
     }
 
     .gallery-section h2 {
-        font-size: 1.6rem;
-        margin-bottom: 8px;
+        font-size: 1.55rem;
+        margin-bottom: 6px;
     }
 
     .gallery-tagline {
-        font-size: 1.3rem;
-        margin-bottom: 8px;
+        font-size: 1.25rem;
+        margin-bottom: 6px;
     }
 
     .gallery-description {
         font-size: 0.95rem;
-        margin: 8px auto 16px;
+        margin: 6px auto 12px;
     }
 
     .gallery-grid {
-        grid-template-columns: 1fr;
-        gap: 12px;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
     }
 
     .gallery-grid img {
-        height: 180px;
+        height: 160px;
     }
 
     .gallery-button {
-        padding: 10px 18px;
+        padding: 9px 16px;
         font-size: 12px;
-        margin-top: 16px;
+        margin-top: 14px;
     }
 }
 

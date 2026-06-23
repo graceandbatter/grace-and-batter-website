@@ -144,10 +144,10 @@ nav a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
-    padding: 60px 20px;
-    max-width: 900px;
-    margin: 0 auto;
+    gap: 20px;
+    padding: 30px 10px;
+    width: 100%;
+    margin: 0;
 }
 
 .hero-text {
@@ -265,7 +265,7 @@ form button {
 
 .favorite-card {
     background: white;
-    width: 250px;
+    width: 300px;
     padding: 25px;
     border-radius: 20px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.08);
@@ -295,7 +295,8 @@ form button {
 }
 
 .story-section {
-    max-width: 900px;
+    width: 95%;
+    max-width: none;
     margin: 40px auto 20px auto;
     margin-top: 90px;
     text-align: center;
@@ -315,7 +316,7 @@ form button {
 .story-section p {
     font-size: 18px;
     line-height: 1.8;
-    max-width: 700px;
+    max-width:900px;
     margin: auto;
 }
 
@@ -495,3 +496,14 @@ form button {
     line-height: 1.6;
     font-weight:600;
 }
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 20px 10px;
+    }
+
+    .hero-text {
+        max-width: 100%;
+    }
+}
+

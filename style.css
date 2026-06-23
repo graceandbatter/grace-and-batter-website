@@ -502,11 +502,12 @@ form button {
     /* Prevent horizontal overflow */
     body {
         overflow-x: hidden;
+        width: 100%;
     }
 
     /* Header adjustments */
     header {
-        padding: 6px 0;
+        padding: 6px 8px !important;
         width: 100%;
         max-width: 100%;
         box-sizing: border-box;
@@ -754,7 +755,8 @@ form button {
     /* Contact card */
     .contact-card {
         margin: 10px auto;
-        padding: 14px 10px;
+        padding: 12px 10px !important;
+        width: 92% !important;
     }
 
     .contact-card h3 {

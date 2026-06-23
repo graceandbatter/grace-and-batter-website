@@ -499,10 +499,37 @@ form button {
 
 @media (max-width: 768px) {
 
+    /* Header adjustments */
+    header {
+        padding: 10px 15px;
+    }
+
+    .header-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .brand h1 {
+        font-size: 1.3rem;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        gap: 12px;
+        justify-content: center;
+    }
+
+    nav a {
+        font-size: 12px;
+        letter-spacing: 0.5px;
+    }
+
+    /* Hero section */
     .hero {
         flex-direction: column;
         text-align: center;
-        padding: 20px;
+        padding: 15px 10px;
+        gap: 15px;
     }
 
     .hero-text {
@@ -510,22 +537,213 @@ form button {
         text-align: center;
     }
 
+    .tagline {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .intro {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
     .hero-image img {
         width: 90%;
-        max-width: 350px;
+        max-width: 300px;
     }
 
-    nav {
-        flex-wrap: wrap;
+    .verse {
+        font-size: 12px;
+        margin-top: 15px;
     }
 
-    .gallery-grid {
-        grid-template-columns: 1fr;
+    .gold-line {
+        width: 200px;
+        margin: 20px auto 30px auto;
+    }
+
+    /* Buttons */
+    button {
+        padding: 10px 20px;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    /* Lists and cards */
+    li {
+        width: 90%;
+        max-width: 100%;
+        margin: 8px auto;
+        padding: 12px;
+    }
+
+    .best-seller {
+        width: 90%;
+        max-width: 100%;
+        margin: 15px auto;
+        padding: 15px;
+    }
+
+    /* Featured section */
+    .featured h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
     }
 
     .favorites {
         flex-direction: column;
         align-items: center;
+        gap: 15px;
+    }
+
+    .favorite-card {
+        width: 90%;
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    .favorite-card h3 {
+        font-size: 1.4rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .favorite-card p {
+        font-size: 0.9rem;
+    }
+
+    /* Page content */
+    .page-content {
+        max-width: 100%;
+        margin: 15px auto;
+        padding: 10px;
+    }
+
+    .page-content h2 {
+        font-size: 28px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    /* Menu cards */
+    .menu-grid {
+        gap: 15px;
+    }
+
+    .menu-card {
+        width: 90%;
+        max-width: 100%;
+        margin: 10px auto;
+        padding: 20px;
+    }
+
+    .menu-card h3 {
+        margin-bottom: 10px;
+    }
+
+    /* Contact form */
+    input,
+    select,
+    textarea {
+        width: 90%;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    form button {
+        width: 90%;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    /* Story section */
+    .story-section {
+        width: 90%;
+        margin: 30px auto 15px auto;
+        padding: 20px 15px;
+        margin-top: 50px;
+    }
+
+    .story-section h2 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .story-section p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    /* CTA section */
+    .cta-section {
+        padding: 30px 15px;
+    }
+
+    .cta-section h2 {
+        font-size: 28px;
+    }
+
+    .cta-section p {
+        font-size: 14px;
+    }
+
+    .cta-button {
+        padding: 12px 24px;
+        font-size: 14px;
+    }
+
+    .menu-subtitle {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    /* Contact card */
+    .contact-card {
+        width: 90%;
+        max-width: 100%;
+        margin: 15px auto;
+        padding: 20px 15px;
+    }
+
+    .contact-card h3 {
+        margin-top: 15px;
+        font-size: 16px;
+    }
+
+    /* Gallery */
+    .gallery-section {
+        padding: 25px 10px;
+        margin-top: 30px;
+    }
+
+    .gallery-section h2 {
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+    }
+
+    .gallery-tagline {
+        font-size: 1.4rem;
+        margin-bottom: 10px;
+    }
+
+    .gallery-description {
+        font-size: 1rem;
+        margin: 10px auto 20px;
+    }
+
+    .gallery-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .gallery-grid img {
+        height: 220px;
+    }
+
+    .gallery-button {
+        padding: 10px 20px;
+        font-size: 12px;
+        margin-top: 20px;
     }
 }
 

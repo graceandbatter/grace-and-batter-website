@@ -499,53 +499,60 @@ form button {
 
 @media (max-width: 768px) {
 
+    /* Prevent horizontal overflow */
+    body {
+        overflow-x: hidden;
+    }
+
     /* Header adjustments */
     header {
-        padding: 6px 10px;
+        padding: 6px 8px;
         width: 100vw;
         max-width: 100vw;
         box-sizing: border-box;
+        overflow-x: hidden;
     }
 
     .header-container {
         flex-direction: column;
-        gap: 8px;
+        gap: 6px;
         align-items: center;
         width: 100%;
         max-width: 100%;
         margin: 0 auto;
         padding: 0;
+        overflow-x: hidden;
     }
 
     .brand {
-        gap: 8px;
+        gap: 6px;
         justify-content: center;
         width: 100%;
     }
 
     .logo {
-        width: 70px;
+        width: 65px;
     }
 
     .brand h1 {
-        font-size: 0.95rem;
+        font-size: 0.9rem;
     }
 
     nav {
-        flex-wrap: nowrap;
-        gap: 10px;
+        flex-wrap: wrap;
+        gap: 6px;
         justify-content: center;
         width: 100%;
         max-width: 100%;
-        overflow-x: auto;
         padding: 0;
         margin: 0;
+        overflow-x: hidden;
     }
 
     nav a {
-        font-size: 11px;
-        letter-spacing: 0.4px;
-        padding: 0 6px;
+        font-size: 10px;
+        letter-spacing: 0.3px;
+        padding: 0 4px;
         white-space: nowrap;
     }
 
@@ -553,43 +560,44 @@ form button {
     .hero {
         flex-direction: column;
         text-align: center;
-        padding: 10px 8px;
-        gap: 10px;
+        padding: 8px 6px;
+        gap: 8px;
     }
 
     .hero-text {
         max-width: 100%;
         text-align: center;
-        padding: 0 6px;
+        padding: 0 4px;
     }
 
     .tagline {
-        font-size: 22px;
-        margin-bottom: 6px;
-        line-height: 1.15;
+        font-size: 20px;
+        margin-bottom: 5px;
+        line-height: 1.1;
     }
 
     .intro {
         font-size: 14px;
-        line-height: 1.45;
-        margin-bottom: 8px;
+        line-height: 1.4;
+        margin-bottom: 6px;
     }
 
     .hero-image img {
-        width: 65%;
-        max-width: 170px;
+        width: 55%;
+        max-width: 140px;
         margin: 0 auto;
         display: block;
+        margin-top: 6px;
     }
 
     .verse {
-        font-size: 12px;
-        margin-top: 8px;
+        font-size: 11px;
+        margin-top: 6px;
     }
 
     .gold-line {
-        width: 140px;
-        margin: 14px auto 20px auto;
+        width: 120px;
+        margin: 12px auto 10px auto;
     }
 
     /* Buttons */

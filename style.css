@@ -506,11 +506,13 @@ form button {
 
     /* Header adjustments */
     header {
-        padding: 6px 8px;
-        width: 100vw;
-        max-width: 100vw;
+        padding: 6px 0;
+        width: 100%;
+        max-width: 100%;
         box-sizing: border-box;
         overflow-x: hidden;
+        display: flex;
+        justify-content: center;
     }
 
     .header-container {
@@ -519,8 +521,8 @@ form button {
         align-items: center;
         width: 100%;
         max-width: 100%;
-        margin: 0 auto;
-        padding: 0;
+        margin: 0;
+        padding: 0 8px;
         overflow-x: hidden;
     }
 
@@ -583,11 +585,11 @@ form button {
     }
 
     .hero-image img {
-        width: 55%;
-        max-width: 140px;
+        width: 45%;
+        max-width: 120px;
         margin: 0 auto;
         display: block;
-        margin-top: 6px;
+        margin-top: 2px;
     }
 
     .verse {

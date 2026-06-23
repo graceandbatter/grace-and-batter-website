@@ -150,11 +150,6 @@ nav a:hover {
     margin: 0;
 }
 
-.hero-text {
-    max-width: 450px;
-    text-align: left;
-}
-
 .hero-photo img {
     width: 300px;
     border-radius: 20px;
@@ -191,9 +186,9 @@ nav a:hover {
     width: 220px;
     margin: 20px auto;
     padding: 30px;
-    border-radius: 20px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-
+        padding: 40px; /* Removed !important */
+        padding: 12px 10px;
+        width: 92%;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -499,305 +494,33 @@ form button {
 
 @media (max-width: 768px) {
 
-    /* Prevent horizontal overflow */
-    body {
-        overflow-x: hidden;
-        width: 100%;
-    }
-
-    /* Header adjustments */
-    header {
-        padding: 6px 8px !important;
-        width: 100%;
-        max-width: 100%;
-        box-sizing: border-box;
-        overflow-x: hidden;
-        display: flex;
-        justify-content: center;
-    }
-
-    .header-container {
-        flex-direction: column;
-        gap: 6px;
-        align-items: center;
-        width: 100%;
-        max-width: 100%;
-        margin: 0;
-        padding: 0 8px;
-        overflow-x: hidden;
-    }
-
-    .brand {
-        gap: 6px;
-        justify-content: center;
-        width: 100%;
-    }
-
-    .logo {
-        width: 65px;
-    }
-
-    .brand h1 {
-        font-size: 0.9rem;
-    }
-
-    nav {
-        flex-wrap: wrap;
-        gap: 6px;
-        justify-content: center;
-        width: 100%;
-        max-width: 100%;
-        padding: 0;
-        margin: 0;
-        overflow-x: hidden;
-    }
-
-    nav a {
-        font-size: 10px;
-        letter-spacing: 0.3px;
-        padding: 0 4px;
-        white-space: nowrap;
-    }
-
-    /* Hero section */
     .hero {
         flex-direction: column;
         text-align: center;
-        padding: 8px 6px;
-        gap: 8px;
+        padding: 20px;
     }
 
     .hero-text {
         max-width: 100%;
         text-align: center;
-        padding: 0 4px;
-    }
-
-    .tagline {
-        font-size: 20px;
-        margin-bottom: 5px;
-        line-height: 1.1;
-    }
-
-    .intro {
-        font-size: 14px;
-        line-height: 1.4;
-        margin-bottom: 6px;
     }
 
     .hero-image img {
-        width: 45%;
-        max-width: 120px;
-        margin: 0 auto;
-        display: block;
-        margin-top: 2px;
-    }
-
-    .verse {
-        font-size: 11px;
-        margin-top: 6px;
-    }
-
-    .gold-line {
-        width: 120px;
-        margin: 12px auto 10px auto;
-    }
-
-    /* Buttons */
-    button {
-        padding: 8px 16px;
-        font-size: 13px;
-        margin-top: 6px;
-    }
-
-    /* Lists and cards */
-    li,
-    .best-seller,
-    .favorite-card,
-    .contact-card,
-    .menu-card {
         width: 90%;
-        max-width: 90%;
+        max-width: 350px;
     }
 
-    li {
-        margin: 5px auto;
-        padding: 10px;
+    nav {
+        flex-wrap: wrap;
     }
 
-    .best-seller {
-        margin: 10px auto;
-        padding: 10px;
-    }
-
-    /* Featured section */
-    .featured {
-        padding-top: 8px;
-        margin-top: 0;
-    }
-
-    .featured h2 {
-        font-size: 26px;
-        margin-bottom: 14px;
+    .gallery-grid {
+        grid-template-columns: 1fr;
     }
 
     .favorites {
         flex-direction: column;
         align-items: center;
-        gap: 8px;
-    }
-
-    .favorite-card {
-        width: 88%;
-        max-width: 88%;
-        padding: 10px;
-        margin: 0 auto;
-    }
-
-    .favorite-card h3 {
-        font-size: 1.2rem;
-        margin-top: 6px;
-        margin-bottom: 6px;
-    }
-
-    .favorite-card p {
-        font-size: 0.86rem;
-        line-height: 1.45;
-    }
-
-    .favorite-card img {
-        height: 140px;
-    }
-
-    /* Page content */
-    .page-content {
-        max-width: 100%;
-        margin: 10px auto;
-        padding: 6px;
-    }
-
-    .page-content h2 {
-        font-size: 24px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    /* Menu cards */
-    .menu-grid {
-        gap: 8px;
-    }
-
-    .menu-card {
-        margin: 6px auto;
-        padding: 14px;
-    }
-
-    .menu-card h3 {
-        margin-bottom: 6px;
-    }
-
-    /* Contact form */
-    input,
-    select,
-    textarea {
-        width: 92%;
-        padding: 8px;
-        font-size: 13px;
-    }
-
-    form button {
-        width: 92%;
-        padding: 9px;
-        font-size: 13px;
-    }
-
-    /* Story section */
-    .story-section {
-        width: 92%;
-        margin: 18px auto 10px auto;
-        padding: 14px 10px;
-    }
-
-    .story-section h2 {
-        font-size: 24px;
-        margin-bottom: 10px;
-    }
-
-    .story-section p {
-        font-size: 14px;
-        line-height: 1.5;
-    }
-
-    /* CTA section */
-    .cta-section {
-        padding: 16px 10px;
-        margin-top: 12px;
-    }
-
-    .cta-section h2 {
-        font-size: 24px;
-    }
-
-    .cta-section p {
-        font-size: 14px;
-    }
-
-    .cta-button {
-        padding: 10px 18px;
-        font-size: 13px;
-    }
-
-    .menu-subtitle {
-        font-size: 13px;
-        margin-bottom: 12px;
-    }
-
-    /* Contact card */
-    .contact-card {
-        margin: 10px auto;
-        padding: 12px 10px !important;
-        width: 92% !important;
-    }
-
-    .contact-card h3 {
-        margin-top: 10px;
-        font-size: 14px;
-    }
-
-    /* Gallery */
-    .gallery-section {
-        padding: 16px 10px;
-        margin-top: 16px;
-    }
-
-    .gallery-section h2 {
-        font-size: 1.55rem;
-        margin-bottom: 6px;
-    }
-
-    .gallery-tagline {
-        font-size: 1.25rem;
-        margin-bottom: 6px;
-    }
-
-    .gallery-description {
-        font-size: 0.95rem;
-        margin: 6px auto 12px;
-    }
-
-    .gallery-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 10px;
-    }
-
-    .gallery-grid img {
-        height: 160px;
-    }
-
-    .gallery-button {
-        padding: 9px 16px;
-        font-size: 12px;
-        margin-top: 14px;
     }
 }
 

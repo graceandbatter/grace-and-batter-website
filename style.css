@@ -510,14 +510,11 @@ form button {
     
 
     header {
-padding: 10px;
+padding: 5px 10px;
 }
 
 .header-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 5px;
+    gap: 0;
 }
 
 .logo {
@@ -529,7 +526,7 @@ width: 70px;
         display: flex;
         flex-direction: column;
         text-align: center;
-        padding-top: 80px;
+        padding-top: 20px;
         gap: 30px;
     }
 
@@ -597,11 +594,11 @@ width: 70px;
     }
 
     .brand h1 {
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 
     .brand img {
-        width: 80px;
+        width: 60px;
     }
 
     .menu-toggle {
@@ -612,5 +609,7 @@ width: 70px;
         cursor: pointer;
         color: #A57421;
     }
+
+    
 }
 

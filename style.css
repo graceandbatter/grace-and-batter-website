@@ -606,8 +606,8 @@ transition: opacity 0.3s ease;
 
 background: white;
 padding: 15px;
-border-radius: 12px;
-box-shadow: 0 5px 15px rgba(0,0,0,.1);
+border-radius: 20px;
+box-shadow: 0 10px 30px rgba(165, 116, 33, .15);
 gap: 15px;
 }
 

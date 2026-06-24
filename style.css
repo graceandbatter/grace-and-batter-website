@@ -595,11 +595,26 @@ width: 70px;
     }
 
     nav {
-        display: none;
-    }
-    
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 10px;
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    gap: 15px;
+}
+
     .menu-toggle {
         display: block;
+        background: none;
+        border: none;
+        font-size: 2rem;
+        color: #A57421;
+        cursor: pointer;
+        padding: 0;
     }
 
     

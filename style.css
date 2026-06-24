@@ -502,6 +502,10 @@ form button {
     font-weight:600;
 }
 
+.menu-toggle {
+    display: none;
+}
+
 @media (max-width: 768px) {
     
 
@@ -513,18 +517,13 @@ padding: 15px 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-gap: 10px;
+    gap: 15px;
 }
 
 .logo {
 width: 80px;
 }
 
-nav {
-justify-content: center;
-gap: 15px;
-flex-wrap: wrap;
-}
 
     .hero {
         flex-direction: column;
@@ -550,9 +549,9 @@ flex-wrap: wrap;
     nav {
         display: flex;
         justify-content: center;
-        gap: 15px;
+        gap: 12px;
         flex-wrap: wrap;
-        margin-top: 10px;
+        margin-top: 15px;
     }
 
     .gallery-grid {
@@ -593,17 +592,24 @@ flex-wrap: wrap;
     .brand {
         display: flex;
         align-items: center;
-        justify-content: center;
         gap: 12px;
     }
 
     .brand h1 {
-        font-size: 2.2rem;
-        line-height: 1;
+        font-size: 2rem;
     }
 
     .brand img {
         width: 80px;
+    }
+
+    .menu-toggle {
+        display: block;
+        background: none;
+        border: none;
+        font-size: 2rem;
+        cursor: pointer;
+        color: #A57421;
     }
 }
 

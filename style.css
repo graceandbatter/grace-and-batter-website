@@ -503,9 +503,7 @@ form button {
 }
 
 @media (max-width: 768px) {
-    body {
-        background: red !important;
-    }
+    
 
     header {
 padding: 15px;

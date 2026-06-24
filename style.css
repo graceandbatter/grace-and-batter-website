@@ -544,13 +544,6 @@ width: 70px;
         margin-top: -60px;
     }
 
-    nav {
-        display: flex;
-        justify-content: center;
-        gap: 12px;
-        flex-wrap: wrap;
-        margin-top: 15px;
-    }
 
     .gallery-grid {
         grid-template-columns: 1fr 1fr;
@@ -601,13 +594,12 @@ width: 70px;
         width: 60px;
     }
 
+    nav {
+        display: none;
+    }
+    
     .menu-toggle {
         display: block;
-        background: none;
-        border: none;
-        font-size: 2rem;
-        cursor: pointer;
-        color: #A57421;
     }
 
     

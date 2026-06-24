@@ -506,7 +506,7 @@ form button {
     
 
     header {
-padding-bottom: 25px;
+padding: 15px 10px;
 }
 
 .header-container {
@@ -517,7 +517,7 @@ gap: 10px;
 }
 
 .logo {
-width: 90px;
+width: 80px;
 }
 
 nav {
@@ -544,14 +544,15 @@ flex-wrap: wrap;
     }
 
     .hero-photo {
-        margin-top: -40px;
+        margin-top: -60px;
     }
 
     nav {
         display: flex;
         justify-content: center;
-        gap: 20px;
+        gap: 15px;
         flex-wrap: wrap;
+        margin-top: 10px;
     }
 
     .gallery-grid {
@@ -581,10 +582,28 @@ flex-wrap: wrap;
 
     header h1 {
         font-size: 2rem;
+        margin: 0;
     }
 
     nav a {
-        font-size: 0.9rem;
+        font-size: 0.85rem;
+        font-weight: 600;
+    }
+
+    .brand {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .brand h1 {
+        font-size: 2.2rem;
+        line-height: 1;
+    }
+
+    .brand img {
+        width: 80px;
     }
 }
 

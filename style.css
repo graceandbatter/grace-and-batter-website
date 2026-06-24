@@ -1,3 +1,6 @@
+* {box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #FAEBD8;
@@ -43,7 +46,7 @@ button {
     background-color: #A57421;
     color: white;
     border: none;
-    padding: 12px 25px;
+    padding: 14px 30px;
     border-radius: 25px;
     font-size: 16px;
     cursor: pointer;
@@ -110,7 +113,7 @@ header {
 }
 
 .logo {
-    width: 120px;
+    width: 150px;
     height: auto;
     margin: 0;
 }
@@ -142,16 +145,16 @@ nav a:hover {
 
 .hero {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 20px;
-    padding: 30px 10px;
-    width: 100%;
-    margin: 0;
+    gap: 60px;
+    padding: 60px 40px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .hero-photo img {
-    width: 300px;
+    width: 350px;
     border-radius: 20px;
 }
 
@@ -501,7 +504,7 @@ form button {
     }
 
     .hero-text {
-        max-width: 100%;
+        max-width: 600px;
         text-align: center;
     }
 

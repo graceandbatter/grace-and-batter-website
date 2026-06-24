@@ -506,7 +506,7 @@ form button {
     
 
     header {
-padding: 15px;
+padding-bottom: 25px;
 }
 
 .header-container {
@@ -517,7 +517,7 @@ gap: 10px;
 }
 
 .logo {
-width: 100px;
+width: 90px;
 }
 
 nav {
@@ -544,13 +544,13 @@ flex-wrap: wrap;
     }
 
     .hero-photo {
-        margin-top: -20px;
+        margin-top: -40px;
     }
 
     nav {
         display: flex;
         justify-content: center;
-        gap: 15px;
+        gap: 20px;
         flex-wrap: wrap;
     }
 
@@ -559,7 +559,7 @@ flex-wrap: wrap;
         gap: 15px;
     }
 
-    gallery-grid img {
+    .gallery-grid img {
         aspect-ratio: 4 / 5;
         object-fit: cover;
     }
@@ -577,6 +577,14 @@ flex-wrap: wrap;
     .favorite-card {
         width: 90%;
         max-width: 350px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav a {
+        font-size: 0.9rem;
     }
 }
 

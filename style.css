@@ -516,8 +516,9 @@ padding: 5px 10px;
 .header-container {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     position: relative;
+    min-height: 70px;
 }
 
 .logo {
@@ -619,6 +620,10 @@ gap: 15px;
 
     .menu-toggle {
         display: block;
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
         background: none;
         border: none;
         font-size: 2rem;
@@ -626,6 +631,7 @@ gap: 15px;
         cursor: pointer;
         padding: 0;
         transition: all 0.3s ease;
+        z-index: 1001;
     }
 
 

@@ -602,20 +602,31 @@ width: 70px;
     }
 
     nav {
-display: none;
+display: flex;
 flex-direction: column;
-position: absolute;
-top: 100%;
-right: 10px;
 
-opacity: 0;
-transition: opacity 0.3s ease;
+position: fixed;
+top: 0;
+left: -300px;
+
+width: 280px;
+height: 100vh;
 
 background: white;
-padding: 15px;
-border-radius: 20px;
-box-shadow: 0 10px 30px rgba(165, 116, 33, .15);
-gap: 15px;
+
+padding: 100px 35px 40px;
+
+gap: 28px;
+
+box-shadow: 8px 0 25px rgba(0,0,0,.15);
+
+transition: left .35s ease;
+
+z-index: 9999;
+}
+
+nav.show {
+    left: 0;
 }
 
     .menu-toggle {

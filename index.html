@@ -27,6 +27,9 @@
 </div>
 
         <nav id="mobile-menu">
+
+<button class="close-menu">✕</button>
+
             <a href="index.html" class="active">Home</a>
             <a href="menu.html">Menu</a>
             <a href="about.html">About</a>
@@ -149,17 +152,16 @@ From cookies and cakes to banana pudding and seasonal favorites, every dessert i
 <script>
 const menuButton = document.querySelector(".menu-toggle");
 const mobileMenu = document.querySelector("#mobile-menu");
+const closeMenuButton = document.querySelector(".close-menu");
 
+// Open menu
 menuButton.addEventListener("click", () => {
+mobileMenu.classList.add("show");
+});
 
-mobileMenu.classList.toggle("show");
-
-if (mobileMenu.classList.contains("show")) {
-menuButton.innerHTML = "✕";
-} else {
-menuButton.innerHTML = "☰";
-}
-
+// Close menu
+closeMenuButton.addEventListener("click", () => {
+mobileMenu.classList.remove("show");
 });
 </script>
 

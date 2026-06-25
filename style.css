@@ -580,9 +580,21 @@ width: 70px;
     }
 
     nav a {
-        font-size: 0.85rem;
+        font-size: 1.3rem;
         font-weight: 600;
+        text-decoration: none;
+        color: #4a4a4a;
+        letter-spacing: 2px;
+        transition: .3s;
     }
+
+    nav a:hover {
+        color: #A57421;
+    }
+
+nav a.active {
+    color: #A57421;
+}
 
     .brand {
         display: flex;
@@ -607,18 +619,18 @@ flex-direction: column;
 
 position: fixed;
 top: 0;
-left: -300px;
+left: -320px;
 
-width: 280px;
+width: 300px;
 height: 100vh;
 
-background: white;
+background: #fff;
 
-padding: 100px 35px 40px;
+padding: 35px;
 
 gap: 28px;
 
-box-shadow: 8px 0 25px rgba(0,0,0,.15);
+box-shadow: 8px 0 35px rgba(0,0,0,.12);
 
 transition: left .35s ease;
 
@@ -645,7 +657,14 @@ nav.show {
         z-index: 1001;
     }
 
-
-    
+.close-menu {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: #A57421;
+    cursor: pointer;
+    align-self: flex-start;
+    margin-bottom: 25px;
 }
 
+}

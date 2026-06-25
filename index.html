@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grace and Batter</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,31 +15,65 @@
 
 <body>
     
-   <header>
-   <div class="header-container">
+   <header class="desktop-header">
 
-    <nav class="desktop-nav">
-<ul>
-<li><a href="menu.html">Menu</a></li>
-<li class="dropdown">
+<div class="desktop-left">
+
+<div class="nav-item">
+<a href="#">Menu</a>
+
+<div class="dropdown-menu">
+<a href="menu.html">Cookies</a>
+<a href="menu.html">Cupcakes</a>
+<a href="menu.html">Cakes</a>
+<a href="menu.html">Brownies</a>
+<a href="menu.html">Banana Pudding</a>
+</div>
+</div>
+
+<div class="nav-item">
 <a href="#">About</a>
+
 <div class="dropdown-menu">
 <a href="about.html">Our Story</a>
 <a href="gallery.html">Gallery</a>
 <a href="contact.html">Contact</a>
 </div>
-</li>
-<li class="dropdown">
-<a href="#">Order</a>
-<div class="dropdown-menu">
-<a href="order.html">Cookies</a>
-<a href="cakes.html">Cakes</a>
-<a href="cupcakes.html">Cupcakes</a>
-<a href="brownies.html">Brownies</a>
 </div>
-</li>
-</ul>
-</nav>
+
+<div class="nav-item">
+<a href="#">Order</a>
+
+<div class="dropdown-menu">
+<a href="order.html">Order Online</a>
+<a href="order.html">Custom Cakes</a>
+<a href="order.html">Pickup Information</a>
+</div>
+</div>
+
+</div>
+
+<div class="desktop-brand">
+
+<img src="grace-and-batter-logo.png.png" alt="Grace & Batter">
+
+<h1>Grace &amp; Batter</h1>
+
+</div>
+
+<div class="desktop-right">
+
+<a href="#"><i class="fa-regular fa-user"></i></a>
+
+<a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+
+</div>
+
+</header>
+
+<header class="mobile-header">
+
+<div class="header-container">
 
 <button class="menu-toggle">
 ☰
@@ -46,25 +81,25 @@
 
 <div class="brand">
 <img src="grace-and-batter-logo.png.png" alt="Grace & Batter">
-<h1>Grace and Batter</h1>
+<h1>Grace &amp; Batter</h1>
 </div>
 
-<div class="desktop-icons">
-<a href="#"><i class="fa-regular fa-user"></i></a>
-<a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+<nav id="mobile-menu">
+
+<button class="close-menu">✕
+
+</button>
+
+<a href="index.html">Home</a>
+<a href="menu.html">Menu</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+<a href="order.html">Order</a>
+
+</nav>
+
 </div>
 
-        <nav id="mobile-menu">
-
-<button class="close-menu">✕</button>
-
-            <a href="index.html" class="active">Home</a>
-            <a href="menu.html">Menu</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
-            <a href="order.html">Order</a>
-        </nav>
-    </div>
 </header>
 
 <div class="hero">

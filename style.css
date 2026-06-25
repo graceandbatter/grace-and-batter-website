@@ -1,3 +1,18 @@
+@font-face {
+font-family: "Thephir";
+src: url("fonts/Thephir Light.otf") format("opentype");
+font-weight: 300;
+font-style: normal;
+}
+
+@font-face {
+font-family: "Thephir";
+src: url("fonts/Thephir Bold.otf") format("opentype");
+font-weight: 700;
+font-style: normal;
+}
+
+
 * {box-sizing: border-box;
 }
 
@@ -164,6 +179,7 @@ nav a:hover {
     width: 350px;
     border-radius: 20px;
 }
+
 
 .tagline {
     font-size: 42px;
@@ -422,6 +438,8 @@ form button {
     margin: 0;
     font-size: 1.8rem;
     color: #b8860b;
+    font-family: "Thephir", serif;
+    font-weight: 700;
 }
 
 .favorite-card img {

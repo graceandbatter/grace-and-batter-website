@@ -320,10 +320,12 @@ position:fixed;
 top:0;
 left:-100%;
 
-width:80%;
+width:75%;
 max-width:320px;
 
-height:100vh;
+height:100dvh;
+
+overflow-y: auto;
 
 background:white;
 
@@ -424,7 +426,10 @@ background:#A57421;
 color:white !important;
 text-decoration:none;
 padding:15px;
-width:100%;
+width:85%;
+max-width: 260px;
+margin: 30px auto;
+padding: 14px 20px;
 text-align:center;
 border-radius:40px;
 font-weight:600;

@@ -14,18 +14,39 @@ header {
 }
 
 .announcement-bar{
-    background:#A57421;
-    color:white;
-    text-align:center;
-    padding:8px;
-    font-size:.9rem;
-    letter-spacing:1px;
+background:#A57421;
+color:white;
+overflow:hidden;
+white-space:nowrap;
+padding:10px 0;
+position:relative;
+}
+
+.announcement-track{
+display:inline-block;
+white-space:nowrap;
+animation:scrollAnnouncement 22s linear infinite;
+font-size:.9rem;
+letter-spacing:1px;
+font-weight:500;
+}
+
+@keyframes scrollAnnouncement{
+
+from{
+transform:translateX(0);
+}
+
+to{
+transform:translateX(-50%);
+}
+
 }
 
 .header-container{
     max-width:1400px;
     margin:auto;
-    padding:18px 45px;
+    padding:24px 60px;
 
     display:grid;
     grid-template-columns:1fr auto 1fr;
@@ -39,16 +60,16 @@ header {
 .left-nav{
     display:flex;
     align-items:center;
-    gap:35px;
+    gap:48px;
 }
 
 .left-nav a{
     color:#444;
     text-decoration:none;
-    font-weight:600;
-    letter-spacing:1px;
+    font-weight:500;
+    letter-spacing:1.6px;
     text-transform:uppercase;
-    font-size:.9rem;
+    font-size:.78rem;
     transition:.3s;
 }
 
@@ -73,10 +94,10 @@ header {
 
 .brand h1{
     font-family:"Thephir",serif;
-    font-size:2rem;
+    font-size:1.65rem;
     color:#494949;
     margin:0;
-    font-weight:700;
+    font-weight:300;
     white-space:nowrap;
 }
 
@@ -113,18 +134,18 @@ header {
 
     position:absolute;
 
-    top:100%;
+    top:calc(100% + 2px);
     left:0;
 
-    min-width:240px;
+    min-width:270px;
 
     background:white;
 
-    border-radius:15px;
+    border-radius:0;
 
-    padding:18px;
+    padding:28px;
 
-    box-shadow:0 15px 35px rgba(0,0,0,.08);
+    box-shadow:0 6px 18px rgba(0,0,0,.06);
 
     opacity:0;
 
@@ -160,6 +181,33 @@ header {
 
     font-weight:500;
 
+    display:block;
+
+    padding:8px 0;
+
+    font-size:1rem;
+
+    color:#494949;
+
+    transition:.25s;
+
+}
+
+
+.dropdown-content a:hover{
+
+    color:#c08a2e;
+    padding-left:8px;
+
+}
+
+.dropdown-heading{
+    font-size:.75rem;
+    font-weight:700;
+    color:#c08a2e;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    margin-bottom:18px;
 }
 
 /* ===========================

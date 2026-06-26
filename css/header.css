@@ -350,9 +350,10 @@ font-weight:600;
 
 }
 
-.mobile-menu.active{
+#mobile-menu.active{
     display:flex;
     flex-direction:column;
+}
 
 
 
@@ -388,7 +389,6 @@ font-size: 12px;
 .right-nav {
     display: none;
 }
-
 
 
 }

@@ -5,8 +5,10 @@
     <title>Grace and Batter</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/header.css">
+<link rel="stylesheet" href="css/footer.css">
+<link rel="stylesheet" href="css/responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
@@ -15,57 +17,81 @@
 
 <body>
     
-   <header class="desktop-header">
+   <header>
 
-<div class="desktop-left">
-
-<div class="nav-item">
-<a href="#">Menu</a>
-
-<div class="dropdown-menu">
-<a href="menu.html">Cookies</a>
-<a href="menu.html">Cupcakes</a>
-<a href="menu.html">Cakes</a>
-<a href="menu.html">Brownies</a>
-<a href="menu.html">Banana Pudding</a>
-</div>
+<div class="announcement-bar">
+Baked with Grace • Served with Love
 </div>
 
-<div class="nav-item">
-<a href="#">About</a>
+<div class="header-container">
 
-<div class="dropdown-menu">
-<a href="about.html">Our Story</a>
-<a href="gallery.html">Gallery</a>
+<div class="left-nav">
+
+<div class="nav-item">
+<a href="index.html">Home</a>
+</div>
+
+<div class="nav-item dropdown">
+<a href="menu.html">Menu</a>
+
+<div class="dropdown-content">
+
+<a href="#">Cookies</a>
+<a href="#">Brownies</a>
+<a href="#">Cupcakes</a>
+<a href="#">Cakes</a>
+<a href="#">Seasonal</a>
+
+</div>
+
+</div>
+
+<div class="nav-item dropdown">
+
+<a href="about.html">About</a>
+
+<div class="dropdown-content">
+
+<a href="#">Our Story</a>
+<a href="#">Gallery</a>
+<a href="#">Faith & Mission</a>
+
+</div>
+
+</div>
+
+<div class="nav-item dropdown">
+
 <a href="contact.html">Contact</a>
-</div>
+
+<div class="dropdown-content">
+
+<a href="#">Contact</a>
+<a href="#">FAQ</a>
+
 </div>
 
-<div class="nav-item">
-<a href="#">Order</a>
-
-<div class="dropdown-menu">
-<a href="order.html">Order Online</a>
-<a href="order.html">Custom Cakes</a>
-<a href="order.html">Pickup Information</a>
-</div>
 </div>
 
 </div>
 
-<div class="desktop-brand">
 
-<img src="grace-and-batter-logo.png.png" alt="Grace & Batter">
+<div class="brand">
 
-<h1>Grace &amp; Batter</h1>
+<img src="images/grace-and-batter-logo.png.png" alt="Grace and Batter Logo">
+
+<h1>Grace & Batter</h1>
 
 </div>
 
-<div class="desktop-right">
+
+<div class="right-icons">
 
 <a href="#"><i class="fa-regular fa-user"></i></a>
 
 <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+
+</div>
 
 </div>
 
@@ -80,7 +106,7 @@
 </button>
 
 <div class="brand">
-<img src="grace-and-batter-logo.png.png" alt="Grace & Batter">
+<img src="images/grace-and-batter-logo.png.png" alt="Grace & Batter">
 <h1>Grace &amp; Batter</h1>
 </div>
 
@@ -128,7 +154,7 @@
 
     </div>
 <div class="hero-photo">
-        <img src="hero.jpg.jpeg"
+        <img src="images/hero.jpg.jpeg"
              alt="Grace and Batter Cookies"
              class="hero-image">
     </div>
@@ -141,19 +167,19 @@
     <div class="favorites">
 
         <div class="favorite-card">
-            <img src="strawberry-crunch.jpg.jpeg" alt="Strawberry Crunch Cake">
+            <img src="images/strawberry-crunch.jpg.jpeg" alt="Strawberry Crunch Cake">
     <h3>Strawberry Crunch Cake</h3>
     <p>Moist strawberry cake topped with cream cheese frosting, fresh strawberries, and strawberry crunch crumbles.</p>
 </div>
 
 <div class="favorite-card">
-    <img src="banana-pudding.jpg.jpeg" alt="Banana Pudding">
+    <img src="images/banana-pudding.jpg.jpeg" alt="Banana Pudding">
     <h3>Banana Pudding</h3>
     <p>Layers of creamy banana pudding, vanilla wafers, and sweet toppings made with love.</p>
 </div>
 
 <div class="favorite-card">
-    <img src="cookies-and-cream.jpg.jpeg" alt="Cookies & Cream Cookie">
+    <img src="images/cookies-and-cream.jpg.jpeg" alt="Cookies & Cream Cookie">
     <h3>Cookies & Cream Cookie</h3>
     <p>Our signature vanilla cookie loaded with Oreo pieces and white chocolate.</p>
 </div>
@@ -188,12 +214,12 @@ From cookies and cakes to banana pudding and seasonal favorites, every dessert i
 
 <div class="gallery-grid">
 
-    <img src="banana-pudding-cheesecake.jpg.jpeg" alt="Banana Pudding Cheesecake">
-    <img src="lemon-cupcakes.jpg.jpeg" alt="Lemon Cupcakes">
-    <img src="apple-pie-cookies.jpg.jpeg" alt="Apple Pie Cookies">
-    <img src="dubai-pistachio-cookies.jpg.jpeg" alt="Dubai Pistachio Cookies">
-    <img src="smores-brownie.jpg.jpeg" alt="S'mores Brownie">
-    <img src="custom-cake-crown.jpg.jpeg" alt="Custom Cake">
+    <img src="images/banana-pudding-cheesecake.jpg.jpeg" alt="Banana Pudding Cheesecake">
+    <img src="images/lemon-cupcakes.jpg.jpeg" alt="Lemon Cupcakes">
+    <img src="images/apple-pie-cookies.jpg.jpeg" alt="Apple Pie Cookies">
+    <img src="images/dubai-pistachio-cookies.jpg.jpeg" alt="Dubai Pistachio Cookies">
+    <img src="images/smores-brownie.jpg.jpeg" alt="S'mores Brownie">
+    <img src="images/custom-cake-crown.jpg.jpeg" alt="Custom Cake">
 </div>
 
     <a href="menu.html" class="gallery-button">View Full Menu</a>
@@ -212,21 +238,7 @@ From cookies and cakes to banana pudding and seasonal favorites, every dessert i
     <a href="order.html" class="cta-button">Place Your Order</a>
 </section>
 
-<script>
-const menuButton = document.querySelector(".menu-toggle");
-const mobileMenu = document.querySelector("#mobile-menu");
-const closeMenuButton = document.querySelector(".close-menu");
-
-// Open menu
-menuButton.addEventListener("click", () => {
-mobileMenu.classList.add("show");
-});
-
-// Close menu
-closeMenuButton.addEventListener("click", () => {
-mobileMenu.classList.remove("show");
-});
-</script>
+<script src="js/script.js"></script>
 
 </body>
 </html>

@@ -233,11 +233,11 @@ transform:translateX(-50%);
 @media(max-width:768px){
 
 .desktop-header{
-    display:none;
+    display:none !important;
 }
 
 .mobile-header{
-    display:block;
+    display:block !important;
 }
 
 header{

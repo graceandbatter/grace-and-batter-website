@@ -515,6 +515,215 @@ form button {
 }
 
 
+/* ===================================
+ABOUT PAGE
+=================================== */
+
+.about-hero{
+margin-top:0;
+padding-top: 0;
+height:65vh;
+background:url("../images/popup-shop-cakes.jpg.jpeg") center/cover no-repeat;
+position:relative;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.about-overlay{
+width:100%;
+height:100%;
+background:rgba(0,0,0,.50);
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+
+.about-eyebrow{
+letter-spacing:3px;
+text-transform:uppercase;
+font-size:.85rem;
+margin-bottom:20px;
+}
+
+.about-overlay h1{
+font-size:4rem;
+font-family:"Cormorant Garamond",serif;
+margin-bottom:20px;
+}
+
+.about-subtitle{
+max-width:650px;
+line-height:1.8;
+font-size:1.2rem;
+}
+
+.about-intro{
+padding:100px 8%;
+}
+
+.about-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:70px;
+align-items:center;
+}
+
+.about-text span{
+color:#A57421;
+letter-spacing:2px;
+text-transform:uppercase;
+font-weight:600;
+}
+
+.about-text h2{
+font-family:"Cormorant Garamond",serif;
+color:#494949;
+font-size:3rem;
+margin:20px 0;
+}
+
+.about-text p{
+line-height:1.8;
+color:#666;
+margin-bottom:24px;
+}
+
+.about-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about-image img{
+width:100%;
+max-width: 380px;
+height: auto;
+border-radius:25px;
+box-shadow:0 20px 45px rgba(0,0,0,.12);
+}
+
+.popup-story{
+background:#FDF8F2;
+padding:100px 8%;
+}
+
+.story-container{
+max-width:850px;
+margin:auto;
+text-align:center;
+}
+
+.story-container h2{
+font-family:"Cormorant Garamond",serif;
+font-size:3rem;
+color:#494949;
+margin-bottom:15px;
+}
+
+.story-date{
+color:#A57421;
+font-weight:600;
+margin-bottom:35px;
+}
+
+.story-container p{
+line-height:2;
+color:#666;
+margin-bottom:22px;
+}
+
+.values{
+padding:100px 8%;
+}
+
+.values h2{
+text-align:center;
+font-size:3rem;
+font-family:"Cormorant Garamond",serif;
+margin-bottom:60px;
+}
+
+.values-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:35px;
+}
+
+.value-card{
+background:white;
+padding:40px;
+border-radius:22px;
+box-shadow:0 12px 35px rgba(0,0,0,.08);
+text-align:center;
+}
+
+.value-card h3{
+color:#A57421;
+margin-bottom:20px;
+}
+
+.timeline{
+background:#fff;
+padding:80px 8% 100px;
+}
+
+.timeline h2{
+text-align:center;
+font-family:"Cormorant Garamond",serif;
+font-size:3rem;
+margin-bottom:60px;
+}
+
+.timeline-item{
+max-width:750px;
+margin:0 auto 35px;
+padding-left:25px;
+border-left:4px solid #A57421;
+}
+
+.timeline-item h3{
+color:#A57421;
+margin-bottom:10px;
+}
+
+.timeline-item p{
+color:#666;
+line-height:1.8;
+}
+
+.about-cta{
+background:#A57421;
+color:white;
+text-align:center;
+padding:100px 8%;
+}
+
+.about-cta h2{
+font-family:"Cormorant Garamond",serif;
+font-size:3rem;
+margin-bottom:25px;
+}
+
+.about-cta p{
+max-width:700px;
+margin:0 auto 35px;
+line-height:1.9;
+}
+
+.about-cta .hero-button{
+background:white;
+color:#A57421;
+}
+
+
+
+
 
 @media (max-width: 768px) {
     
@@ -574,6 +783,85 @@ width: 70px;
         width: 90%;
         max-width: 350px;
     }
+
+
+
+    /* ===== ABOUT PAGE ===== */
+
+.about-hero{
+height:320px;
+}
+
+.about-overlay h1{
+font-size:2.8rem;
+}
+
+.about-subtitle{
+font-size:1rem;
+max-width:320px;
+line-height:1.6;
+}
+
+.about-intro{
+padding:70px 8%;
+}
+
+.about-grid{
+grid-template-columns:1fr;
+gap:40px;
+}
+
+.about-text{
+order:2;
+text-align:center;
+}
+
+.about-image{
+order:1;
+}
+
+.about-image img{
+max-width:300px;
+width:90%;
+}
+
+.about-text h2{
+font-size:2.5rem;
+}
+
+.about-text p{
+line-height:1.9;
+}
+
+.popup-story,
+.values,
+.timeline,
+.about-cta{
+padding:70px 8%;
+}
+
+.story-container h2,
+.values h2,
+.timeline h2,
+.about-cta h2{
+font-size:2.3rem;
+}
+
+.values-grid{
+grid-template-columns:1fr;
+}
+
+.value-card{
+padding:30px;
+}
+
+.timeline-item{
+margin-bottom:30px;
+}
+
+.about-cta p{
+line-height:1.8;
+}
     
 
 }
